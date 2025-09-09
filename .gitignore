@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Virtual environments
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug and temporary files
+debug_*.html
+*.log
+*.tmp
+temp_*
+test_*
+
+# Downloaded content (but keep directory structure)
+downloads/*.html
+downloads/*.txt
+downloads/*.pdf
+
+# Environment variables
+.env
+.env.local
+
+# Framework artifacts
+.bmad-core/
+.claude/
