@@ -1,2 +1,17 @@
-requests
-beautifulsoup4
+# Core dependencies for docx to markdown conversion
+# Python 3.7+ required
+
+# No external dependencies required!
+# The conversion script uses only Python standard library modules:
+# - pathlib: For path operations
+# - zipfile: For extracting .docx files
+# - xml.etree.ElementTree: For parsing XML content
+# - hashlib: For generating unique image filenames
+# - shutil: For file operations
+# - os, sys, re: Standard utilities
+
+# If you want to extend the converter with additional features, you might consider:
+# python-docx==0.8.11  # Alternative docx parsing library
+# Pillow==10.0.0       # For image processing
+# pypandoc==1.11       # For additional format conversions
+# markdown==3.4.4      # For markdown processing
